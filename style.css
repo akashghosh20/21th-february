@@ -1,0 +1,198 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600&display=swap');
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.card{
+    border: none !important;
+}
+
+.card img{
+    padding: 2px;
+    border: 2px solid rgb(179, 145, 145);
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+.banner{
+    width: 90%;
+    margin: 10px auto;
+}
+
+.main-part{
+    width: 100%;
+}
+
+.box-1{
+    width: 30%;
+}
+.box-3{
+    width: 30%;
+}
+.total-part{
+    width: 95%;
+    border: 2px dashed lightgrey;
+    margin: 5px auto;
+    background-color: rgba(99, 119, 136, 0.555);
+
+}
+h1{
+     text-align: center;
+     margin-bottom: 15px;
+
+}
+marquee{
+    margin: 20px auto;
+    font-size: 25px
+}
+/* photofram  */
+.photofram{
+    width: 300px;
+    height: 200px;   
+    border: 2px solid rosybrown;
+    border-radius: 5px;
+    position: relative;
+    margin: 10px;
+    overflow: hidden;
+}
+.photo img{
+width:150px;
+height:150px;
+margin-left: 60px;
+
+
+
+
+}
+.photo-detail{
+position: absolute;
+width: 300px;
+top: 0;
+display: none;
+}
+.photo-detail h3{
+color: rgb(206, 43, 43);
+background-color: gray;
+text-align: center;
+}
+.photofram:hover .photo-detail{
+display: block;
+background-color: rgba(185, 143, 35, 0.493);
+}
+.photo-album{
+display: flex;
+flex-wrap: wrap;
+}
+.photofram:hover .photo{
+transform: scale(1.5) rotate(360deg);
+transition: transform 2s ease-in-out;
+}
+.center{
+    text-align: center;
+}
+.orange{
+    color: rgb(12, 64, 236)
+}
+
+.m-left{
+    margin-left: 200px !important;
+}
+.banner-title::before {
+    content: "শহিদের প্রতি বিনম্র শ্রদ্ধা";
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: rgb(16, 50, 160);
+    animation: typing 3s linear infinite;
+  }
+
+/* animation  */
+
+@keyframes typing {
+    0% {
+      content: "শ";
+    }
+    18% {
+      content: "শহি";
+    }
+    24% {
+      content: "শহিদে";
+    }
+    30% {
+      content: "শহিদের";
+    }
+    36% {
+      content: "শহিদের প্র";
+    }
+    42% {
+      content: "শহিদের প্রতি|";
+    }
+    48% {
+      content: "শহিদের প্রতি বি|";
+    }
+    54% {
+      content: "শহিদের প্রতি বিন|";
+    }
+    60% {
+      content: "শহিদের প্রতি বিনম্র|";
+    }
+    89% {
+      content: "শহিদের প্রতি বিনম্র শ্র|";
+    }
+    90% {
+      content: "শহিদের প্রতি বিনম্র শ্রদ্ধা|";
+    }
+    91% {
+      content: "শহিদের প্রতি বিনম্র শ্র|";
+    }
+    92% {
+      content: "শহিদের প্রতি বিনম্র|";
+    }
+    93% {
+      content: "শহিদের প্রতি বিন|";
+    }
+    94% {
+      content: "শহিদের প্রতি বি| ";
+    }
+    95% {
+      content: "শহিদের প্রতি|";
+    }
+    96% {
+      content: "শহিদের প্র| ";
+    }
+    97% {
+      content: "শহিদের|";
+    }
+    98% {
+      content: "শহিদে|";
+    }
+    99% {
+      content: "শহি|";
+    }
+    100% {
+      content: "শ|";
+    }
+  }
+  .banner-left {
+    flex: 1;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+  }
+  .banner-title {
+    white-space: nowrap;
+    position: relative;
+    color: transparent;
+  }
+  .bnner-text{
+      background-color: azure;
+      border: 2px dotted blue;
+      font-size: 25px;
+      color: black;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 10px 5px 10px lightseagreen;
+  }
+ 
